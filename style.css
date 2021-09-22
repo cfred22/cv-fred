@@ -1,0 +1,110 @@
+/* Eléments principaux de la page */
+
+body
+{
+    display: flex;
+    font-size: 0.8em;
+    flex-basis: 100%;
+    max-width: 700px;
+
+}
+
+h1
+   {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  
+   }
+
+h2
+   {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-underline-offset: from-font;
+    font-size: 1.3rem;
+   }
+
+
+
+ h3
+   {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  
+   }  
+
+
+h4
+   {
+   
+    letter-spacing: 1px;
+    padding-right: 1em;
+    padding-left: 1em;
+
+   }
+
+
+
+
+
+
+
+
+/* bandeau gauche */
+
+header
+{
+    background: #333333;    
+    color: white;
+    text-align: center; 
+    width: 220px;
+    
+    max-width: 52%;
+    
+    height: 1600px;
+    font-family: arial;
+    margin: auto;
+    padding-top: 10px;
+
+        
+}
+
+ul
+{
+     list-style-type: none;
+     
+
+
+    
+
+ }
+
+
+ .logiciel
+{
+    border: 0.1em solid white;
+    padding: 0.5em;
+    justify-content: 100%;
+    margin: 1px;
+    display: initial;
+    border-radius: 0.3em;
+   
+}
+
+
+
+
+
+/* bandeau droit description */
+
+.description
+{
+    
+    max-width: 70%;
+    margin-left: 20px;
+      
+   
+   
+    
+    
+}
