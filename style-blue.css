@@ -1,0 +1,24 @@
+
+
+
+
+@media  all and (max-width: 1024px) 
+{
+   #bloc-page 
+  {
+     width: auto;
+  }
+  header
+  
+  {
+      background-color: rgb(126, 126, 126)
+       
+  }  
+  p, h1, h2, h3, h4
+   {
+    color: rgb(0, 0, 0);
+
+   }
+
+
+}
