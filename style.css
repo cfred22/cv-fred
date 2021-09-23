@@ -3,7 +3,6 @@ body
 {
     display: flex;
     font-size: 0.8em;
-    flex-basis: 100%;
     max-width: 700px;
 }
 
@@ -74,4 +73,5 @@ ul
 {
     max-width: 70%;
     margin-left: 20px;
+    flex-direction: row;
 }
