@@ -5,25 +5,46 @@
 @media  all and (max-width: 1024px) 
 {
    #bloc-page 
-  {
-     width: auto;
-  }
-
-  header
-    {
-      background-color: rgb(126, 126, 126);
-          
+   {   
        
-  }  
+     width: 100%;
+   }
+   body
+   {
+    max-width: 100%;
+    font-size: x-small;
+   }  
+
+
+   header
+   {  
+      background-color: rgb(126, 126, 126);
+      min-width: none;
+   }    
+       
+  
+   .description
+
+   {
+    max-width: max-content;
+    margin-left: 20px;
+   }
+    
+
 
   
-  p, h1, h2, h3, h4
+   p, h1, h2, h3, h4
    {
     color: rgb(0, 0, 0);
 
    }
- 
+}   
 
 
+    
 
-}
+   
+
+  
+
+
